@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculator</title>
+      <script type="module" src="./script.js"></script>
+      <style>
+            body {
+            background-color: #212121;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            }
+
+            form > * {
+                  display: block;
+                  margin-bottom: 10px;
+            }
+
+            button {
+                  background-color: rgb(252, 252, 84);
+                  border: 0;
+                  padding: 5px;
+                  border-radius: 3px;
+            }
+            button:hover {
+                  background-color: rgb(208, 208, 86);
+            }
+
+            #weight-guide {
+                  box-sizing: border-box;
+                  border: 1px solid #fff;
+                  padding: 12px;
+                  border-radius: 5%;
+            }
+      </style>
+</head>
+<body>
+      <h1>BMI Calculator</h1>
+      <form action="#">
+            <label for="height">Enter Height: </label> 
+            <input type="number" name="" id="height" placeholder="in cm"> 
+
+            <label for="weight">Enter Weight: </label>
+            <input type="number" name="" id="weight" placeholder="in kg">
+
+            <button type="submit">Calculate</button>
+
+            <label for="result">Result:</label>
+            <textarea name="" id="result" ></textarea>
+
+            <div id="weight-guide">
+            <h3>BMI Weight Guide</h3>
+                  <p>Under Weight = Less than 18.6</p>
+                  <p>Normal Range = 18.6 and 24.9</p>
+                  <p>Overweight = Greater than 24.9</p>
+            </div>
+      </form>
+</body>
+</html>
