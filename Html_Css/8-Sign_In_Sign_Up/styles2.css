@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+.first{
+    background-color: #888e89;
+}
+.second{
+    background-image: url(./img/pexels-ceejay-talam-11897866.jpg);
+    background-size:cover;
+}
+.first, .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: azure;
+}
+input{
+    display: block;
+    border: 0;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+label {
+    font-size:  20px;
+}
+#form-button, button{
+    margin: 0 auto;
+    width: 300px;
+    border: 0;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(47, 43, 43);
+    color: white
+}
+#form-button:hover {
+    background-color: rgb(152, 152, 152);
+    color: black;
+}
+button {
+    background-color: rgb(47, 43, 43);
+}
+button:hover {
+    background-color: #9b9b9b;
+    color: black;
+}
+
+@media(max-width: 700px) {
+    #form-button, button {
+        width: 150px;
+    }   
+}

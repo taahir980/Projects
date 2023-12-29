@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr;
+}
+.first{
+    background-image: url(./img/clay-banks-u27Rrbs9Dwc-unsplash.jpg);
+    background-size: cover;
+}
+.second {
+    background-color: #D8D9DA;
+}
+.first, .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+input{
+    display: block;
+    border: 0;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+label {
+    font-size:  20px;
+}
+#form-button, button{
+    margin: 0 auto;
+    width: 300px;
+    border: 0;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #8B7E74;
+    color: white
+}
+#form-button:hover {
+    background-color: #a39e9c;
+    color: black;
+}
+button {
+    background-color: #555b6f;
+}
+button:hover {
+    background-color: #73798b;
+    color: black;
+}
+
+@media(max-width: 700px) {
+    #form-button, button {
+        width: 150px;
+    } 
+}

@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    height: 50vh;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+img {
+    height: 70px;
+    width: 70px;
+}
+div {
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    font-family: 'Rubik', sans-serif;
+}
+h2 {
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.heading {
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.email-input {
+    margin-bottom: 20px;
+    text-align: center;
+}
+input[type=text] {
+    width: 60%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 40px;
+}
+
+.button {
+    text-align: center;
+}
+.button-31 {
+  background-color: #222;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+}
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}

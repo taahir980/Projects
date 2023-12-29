@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div id="form">
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> Eneter your details in the below form </p>
+    <form id="survey-form">
+
+     <fieldset>
+      <label id="name-label">Enter your name: 
+        <input id="name" type="text" placeholder="john" required> 
+      </label>
+      <label id="email-label">Enter your email: 
+        <input id="email" type="email" placeholder="abc@xxx.com" required> 
+      </label>
+      <label id="number-label">Enter a Number: 
+        <input id="number" type="number" placeholder="0-100" min="12" max="100"> 
+      </label>
+      <label>Select Gender: 
+        <select id="dropdown">
+            <option>(Select one)</option>
+            <option>Male</option>
+            <option>Female</option>
+          <select>
+      </label>
+      </fieldset>
+      
+      <!-- Radio Buutton -->
+      <fieldset>
+      <label id="radio">
+        <input type="radio" name="choose" value="1"> Intrested
+      </label>
+      <br>
+      <label id="radio">
+        <input type="radio" name="choose" value="2"> Not-intrested
+      </label>
+      </fieldset>
+
+      <!-- Check Box -->
+      <label id="check">
+        <input type="checkbox"  name="value" id="value"  value="back-end projects">
+        Back-end Projects
+      </label>
+      <label id="check"> 
+        <input type="checkbox"  name="value" id="value"  value="Data visualization">
+        Data Visualization
+      </label>
+      <label id="check">
+        <input type="checkbox"  name="value" id="value"   value="challanges">
+        Challenges
+      </label> 
+
+      <!-- TextArea -->
+      <textarea  placeholder="Enter your details completely here"></textarea>
+      <!-- Submit Button -->
+      <input id="submit" type="submit" name="Submit">
+    </form>
+    </div>
+
+    <footer>
+      <h2>Checkout My Profiles: </h2>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/tahir-khan-t45-k98/" 
+          target="_blank ">
+          <img class="logo" src="https://cdn-icons-png.flaticon.com/128/145/145807.png" 
+          alt="linkedin_link" />
+        </a>
+        <a href="https://github.com/taahir980" 
+          target="_blank">
+          <img class="logo" 
+          src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" 
+          alt="github-link" />
+        </a>
+        <a href="https://www.codingninjas.com/studio/profile/e4ef80d1-854f-4e06-bc14-611c29ec4058" 
+          target="_blank">
+          <img class="logo" 
+          src="https://images2.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hngr1vxmwf3pxuzxsmit" 
+          alt="Coding-ninjas-link" />
+        </a>
+        <a href="https://www.freecodecamp.org/certification/fcca5bb5982-470c-467d-842a-fb936d01c930/responsive-web-design" 
+          target="_blank">
+          <img class="logo" 
+          src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg" 
+          alt="freecodecamp-link" />
+        </a>
+      </div>
+    </footer>
+    
+  </body>
+</html>

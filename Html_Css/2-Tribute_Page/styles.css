@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 46, 61);
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+main {
+    padding: 20px 0;
+    width: 96%;
+    margin: 0 auto;
+}
+.head, .sec-1, h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+#more-info {
+    text-align: center;
+}
+#title, h2 {
+    letter-spacing: 3px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+#img-div {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+#img-caption {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#tribute-info {
+    width: 60%;
+    margin: 0 auto;
+}
+li {
+    padding-bottom: 10px;
+}
+#more-info {
+    font-size: larger;
+}
+.bold {
+    font-weight: 700;
+}

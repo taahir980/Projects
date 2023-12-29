@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structure Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>DSA Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Arrays">Arrays</a></li>
+            <li><a class="nav-link" href="#Binary_Search">Binary Search</a></li>
+            <li><a class="nav-link" href="#Hashing">Hashing</a></li>
+            <li><a class="nav-link" href="#Sorting">Sorting</a></li>
+            <li><a class="nav-link" href="#Maths">Maths</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aut culpa enim vitae vero libero.
+                    Vitae voluptatem soluta magnam voluptate aspernatur, illo, molestias odit, aliquam nemo in cumque minima dolorem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus voluptatem itaque quibusdam ex blanditiis a facere rerum ullam tenetur eligendi earum sequi,
+                    mollitia similique iure! Tempora autem ullam soluta!</p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ad non obcaecati rem. Blanditiis, quis.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed, animi accusamus earum ad iure.</li>
+                </ul>
+            </article>
+            <code>Let's do Programming baby</code>
+        </section>
+        <section class="main-section" id="Arrays">
+            <header>Arrays</header>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aut culpa enim vitae vero libero.
+                    Vitae voluptatem soluta magnam voluptate aspernatur, illo, molestias odit, aliquam nemo in cumque minima dolorem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus voluptatem itaque quibusdam ex blanditiis a facere rerum ullam tenetur eligendi earum sequi,
+                    mollitia similique iure! Tempora autem ullam soluta!</p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ad non obcaecati rem. Blanditiis, quis.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed, animi accusamus earum ad iure.</li>
+                </ul>
+            </article>
+            <code>int LargestElement(int arr[], int n) {
+
+                int largest = arr[0];
+                for(int i=1; i<n; i++) {
+            
+                    if(arr[i] > largest)
+                     largest = arr[i];
+                }
+                return largest;
+            }</code>
+        </section>
+        <section class="main-section" id="Binary_Search">
+            <header>Binary Search</header>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aut culpa enim vitae vero libero.
+                    Vitae voluptatem soluta magnam voluptate aspernatur, illo, molestias odit, aliquam nemo in cumque minima dolorem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus voluptatem itaque quibusdam ex blanditiis a facere rerum ullam tenetur eligendi earum sequi,
+                    mollitia similique iure! Tempora autem ullam soluta!</p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ad non obcaecati rem. Blanditiis, quis.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed, animi accusamus earum ad iure.</li>
+                </ul>
+            </article>
+            <code>int BinarySearch(int arr[], int low, int high, int trgt) {
+                // Base Case
+                if(low > high) return -1;
+                int mid = (low + high) / 2;
+                if(arr[mid] == trgt) return mid;
+                else if(trgt > arr[mid])
+                  BinarySearch(arr, mid+1, high, trgt);
+                else
+                  BinarySearch(arr, low, mid-1, trgt);
+            }</code>
+        </section>
+        <section class="main-section" id="Hashing">
+            <header>Hashing</header>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aut culpa enim vitae vero libero.
+                    Vitae voluptatem soluta magnam voluptate aspernatur, illo, molestias odit, aliquam nemo in cumque minima dolorem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus voluptatem itaque quibusdam ex blanditiis a facere rerum ullam tenetur eligendi earum sequi,
+                    mollitia similique iure! Tempora autem ullam soluta!</p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ad non obcaecati rem. Blanditiis, quis.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed, animi accusamus earum ad iure.</li>
+                </ul>
+            </article>
+            <code>int cntFreq(int arr[], int num, int size)
+                int cnt = 0;
+            </code>
+        </section>
+        <section class="main-section" id="Sorting">
+            <header>Sorting</header>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aut culpa enim vitae vero libero.
+                    Vitae voluptatem soluta magnam voluptate aspernatur, illo, molestias odit, aliquam nemo in cumque minima dolorem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus voluptatem itaque quibusdam ex blanditiis a facere rerum ullam tenetur eligendi earum sequi,
+                    mollitia similique iure! Tempora autem ullam soluta!</p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ad non obcaecati rem. Blanditiis, quis.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed, animi accusamus earum ad iure.</li>
+                </ul>
+            </article>
+            <code>void selection_sort(int arr[], int n) {
+                for(int i=0; i=n-2; i++) {
+                    int miniIdx = i;
+                    for(int j=i+1; j=n-1; j++) {
+                        if(arr[j]  arr[miniIdx])  miniIdx = j;              // T.C = O(n^2)
+                    }
+                    swap(arr[miniIdx], arr[i]);
+                }
+            }</code>
+        </section>
+        <section class="main-section" id="Maths">
+            <header>Maths</header>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aut culpa enim vitae vero libero.
+                    Vitae voluptatem soluta magnam voluptate aspernatur, illo, molestias odit, aliquam nemo in cumque minima dolorem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus voluptatem itaque quibusdam ex blanditiis a facere rerum ullam tenetur eligendi earum sequi,
+                    mollitia similique iure! Tempora autem ullam soluta!</p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ad non obcaecati rem. Blanditiis, quis.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed, animi accusamus earum ad iure.</li>
+                </ul>
+            </article>
+            <code>int countDigits(int n) {
+
+                int cnt = 0;
+                while( n > 0 ) {
+                    cnt++;
+                    n = n/10;
+                }
+                return cnt;
+            }
+            </code>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2022/06/14/18/58/biryani-with-kebab-7262655_1280.jpg);
+    font-family: sans-serif;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+h2{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+p{
+    display: inline-block;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: chocolate;
+    border-color: chocolate;
+}
+
+a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+
+  li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.item {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.item, .price {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.main-div{
+    margin: 10px auto;
+    background-color: aliceblue;
+    width: 70%;
+    max-width: 800px;
+    padding: 20px;;
+}
+
+.main-course {
+    background-color: chocolate;
+}
+.curry-item{
+    background-color: aqua;
+}
+.sweets{
+    background-color:chartreuse;
+}
+.items {
+    width: 60%;
+    margin: 30px auto;
+    padding: 5px 20px;
+    border-radius: 3%;
+}
+
+#establish{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+}
+
+@media (min-width: 1000px) {
+
+    .items {
+        display: inline-block;
+        width: 25%;
+        margin: 10px 10px;
+    }
+}
